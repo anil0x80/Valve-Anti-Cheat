@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1b1a92ec-eea4-47e5-aa54-5a92b8cc0dda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="run_vac.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vac_defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ice_key.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vac_vector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ida_defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vac_module.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="run_vac.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ice_key.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vac_vector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vac_defs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vac_module.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
